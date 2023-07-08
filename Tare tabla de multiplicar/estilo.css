@@ -1,0 +1,53 @@
+body{
+    font-family: 'Open Sans';
+    background: linear-gradient(to right, hsl(0, 0%, 0%), hsla(0, 0%, 100%, 0.6)); 
+    background: linear-gradient(150deg, #8ce01e,  #1b5fb9, #067735);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+    
+
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    border: 3px solid;
+    box-shadow: 0.2rem 0.2rem;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mydiv {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(150deg, #fff102,  #f10271, #00c298);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}

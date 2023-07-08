@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarea Calculo</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+
+<body>
+     <center>
+        <div class="card">
+            <label>Ingrese un numero</label>
+            <br><br>
+            <input type="number" id="num" >
+            <br><br>
+            <input type="button" class="boton" value="Mostrar tabla" onclick="multiplicacion()">
+            <br>
+        </div>
+     </center>
+</body>
+<script>
+      function multiplicacion(){
+            var ventana= window.open("","","");
+            numero = num.value * 1  ;
+
+            
+            for (var i = 1; i < 11; i++) {
+                ventana.document.write(`<center>`+ numero + " x " + i + " = " + (numero*i) + `<br>` + `</center>` ) ;
+            }
+            ventana.document.write('<html><head><title>Tabla</title>' +'<link rel="stylesheet" type="text/css" href="estilo.css">');
+            
+        }
+
+</script>
+</html>
